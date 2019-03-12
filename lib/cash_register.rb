@@ -1,6 +1,5 @@
 class CashRegister
 
-@items = []
 
 def initialize
   @total = 0
