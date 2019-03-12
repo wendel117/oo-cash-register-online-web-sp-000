@@ -16,7 +16,7 @@ def add_item(title, price, quantity = 1)
   @price=price
     quantity.times {
       @total += price
-      @items<<name}
+      @items<< title}
   
 end
 
