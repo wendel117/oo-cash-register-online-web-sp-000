@@ -17,7 +17,7 @@ def add_item(title, price, quantity = 1)
     quantity.times {
       @total += price
       @items<<name}
-  end
+  
 end
 
 def apply_discount
