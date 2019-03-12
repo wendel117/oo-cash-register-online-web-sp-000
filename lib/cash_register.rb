@@ -12,7 +12,12 @@ def total
   @total
 end
 
-def add_item
+def add_item(title, price, quantity = 1)
+  @price=price
+    quantity.times {
+      @total += price
+      @items<<name}
+  end
 end
 
 def apply_discount
